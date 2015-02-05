@@ -4,6 +4,17 @@ module.exports = function(grunt) {
   grunt.initConfig({
     pkg: grunt.file.readJSON('package.json'),
 
+    svgmin: {
+      dist: {
+        files: [{
+          expand: true,
+          cwd: 'svgs',
+          src: ['*.svg'],
+          dest: 'source'
+        }]
+      }
+    },
+
     grunticon: {
       myIcons: {
         files: [{
@@ -19,10 +30,12 @@ module.exports = function(grunt) {
 
   });
 
+  // Load the plugin that provides the "svgmin" task.
+  grunt.loadNpmTasks('grunt-svgmin');
   // Load the plugin that provides the "grunticon" task.
   grunt.loadNpmTasks('grunt-grunticon');
 
   // Default task(s).
-  grunt.registerTask('default', ['grunticon']);
+  grunt.registerTask('default', ['svgmin','grunticon']);
 
 };
