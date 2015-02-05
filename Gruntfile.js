@@ -12,7 +12,12 @@ module.exports = function(grunt) {
           src: ['*.svg'],
           dest: 'source'
         }]
-      }
+      },
+      options: {
+        plugins: [
+          { cleanupIDs: false }
+        ]
+      },
     },
 
     grunticon: {
