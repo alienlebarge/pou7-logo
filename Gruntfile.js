@@ -23,6 +23,6 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-grunticon');
 
   // Default task(s).
-  grunt.registerTask('default', ['uglify']);
+  grunt.registerTask('default', ['grunticon']);
 
 };
