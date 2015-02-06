@@ -24,7 +24,7 @@ module.exports = function(grunt) {
       myIcons: {
         files: [{
           expand: true,
-          cwd: 'source',
+          cwd: 'svgs',
           src: ['*.svg', '*.png'],
           dest: "dist"
         }],
