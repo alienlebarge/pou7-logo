@@ -1,0 +1,155 @@
+<svg width="152" height="152" viewBox="0 0 152 152" xmlns="http://www.w3.org/2000/svg">
+	<title>logo</title>
+	<desc>Created with Sketch.</desc>
+	<g id="Page-1" fill="none" fill-rule="evenodd">
+		<g id="logo">
+			<circle id="background" fill="#C4DDFA" cx="76" cy="76" r="76" />
+			<path d="M137.654 31.552C128.21 18.477 114.712 8.525 99 3.542 99.023 19.815 112.222 33 128.5 33c3.196 0 6.272-.508 9.154-1.448z" id="sun" fill="#fc0" />
+			<path d="M122.652 136C109.774 146.03 93.585 152 76 152s-33.774-5.972-46.652-16c13.133-3.776 29.243-6 46.652-6 17.41 0 33.52 2.224 46.652 6z" id="floor" fill="#ADE178" />
+			<g id="troller">
+				<path d="M40.028 76.485l-7.478-11.74" id="handelbar" stroke="#fff" stroke-width="3" />
+				<path d="M76.16 39.32c20.346 0 36.84 16.493 36.84 36.84C113 96.505 96.506 113 76.16 113c-20.347 0-36.84-16.494-36.84-36.84h36.84V39.32z" id="Chariot" fill="#F25C5C" />
+				<path d="M110.066 61.73c-3.02-7.09-8.2-13.04-14.715-17.024L76.415 76.464l33.652-14.735z" id="shade" fill="#DA3F3F" />
+				<path id="nacelle-top" fill="#fff" d="M37 74h78v4H37z" />
+			</g>
+			<g id="wheel-right" transform="translate(79 103)">
+				<circle id="wheel-right__tire" fill="#556270" cx="15" cy="15" r="15" />
+				<circle id="wheel-right__spoke" fill="#fff" cx="15" cy="15" r="9" />
+				<circle id="wheel-right__center" fill="#556270" cx="15.5" cy="15.5" r="2.5" />
+				<animate
+								xlink:href="#wheel-right__tire"
+								attributeName="cy"
+								from="15"
+								to="15"
+								dur="0.4s"
+								begin="0.1s"
+								values="15; 16; 14; 15"
+								keyTimes="0; 0.5; 0.8; 1"
+								fill="freeze"
+								restart="always"
+								repeatCount = "indefinite"
+								/>
+				<animate
+								xlink:href="#wheel-right__spoke"
+								attributeName="cy"
+								from="15"
+								to="15"
+								dur="0.4s"
+								begin="0.1s"
+								values="15; 16; 14; 15"
+								keyTimes="0; 0.5; 0.8; 1"
+								fill="freeze"
+								restart="always"
+								repeatCount = "indefinite"
+								/>
+				<animate
+								xlink:href="#wheel-right__center"
+								attributeName="cy"
+								from="15"
+								to="15"
+								dur="0.4s"
+								begin="0.1s"
+								values="15; 16; 14; 15"
+								keyTimes="0; 0.5; 0.8; 1"
+								fill="freeze"
+								restart="always"
+								repeatCount = "indefinite"
+								/>
+			</g>
+			<g id="wheel-left" transform="translate(43 103)">
+				<circle id="wheel-left__tire" fill="#556270" cx="15" cy="15" r="15" />
+				<circle id="wheel-left__spoke" fill="#fff" cx="15" cy="15" r="9" />
+				<circle id="wheel-left__center" fill="#556270" cx="15.5" cy="15.5" r="2.5" />
+				<animate
+								xlink:href="#wheel-left__tire"
+								attributeName="cy"
+								from="15"
+								to="15"
+								dur="0.4s"
+								begin="0s"
+								values="15; 16; 14; 15"
+								keyTimes="0; 0.5; 0.8; 1"
+								fill="freeze"
+								restart="always"
+								repeatCount = "indefinite"
+								/>
+				<animate
+								xlink:href="#wheel-left__spoke"
+								attributeName="cy"
+								from="15"
+								to="15"
+								dur="0.4s"
+								begin="0s"
+								values="15; 16; 14; 15"
+								keyTimes="0; 0.5; 0.8; 1"
+								fill="freeze"
+								restart="always"
+								repeatCount = "indefinite"
+								/>
+				<animate
+								xlink:href="#wheel-left__center"
+								attributeName="cy"
+								from="15"
+								to="15"
+								dur="0.4s"
+								begin="0s"
+								values="15; 16; 14; 15"
+								keyTimes="0; 0.5; 0.8; 1"
+								fill="freeze"
+								restart="always"
+								repeatCount = "indefinite"
+								/>
+			</g>
+			<g id="cloud" transform="translate(24 13)" fill="#fff">
+				<rect id="cloud__bottom" width="25" height="7" x="6" y="15"></rect>
+				<circle id="cloud__right" cx="30.5" cy="14.5" r="7.5" />
+				<circle id="cloud__center" cx="19" cy="10" r="10" />
+				<circle id="cloud__left" cx="6" cy="16" r="6" />
+				<animate
+								xlink:href="#cloud__bottom"
+								attributeName="x"
+								from="115.5"
+								to="-42.5"
+								dur="6s"
+								begin="0s"
+								fill="freeze"
+								restart="always"
+								repeatCount = "indefinite"
+								/>
+				<animate
+								xlink:href="#cloud__right"
+								attributeName="cx"
+								from="140"
+								to="-20"
+								dur="6s"
+								begin="0s"
+								fill="freeze"
+								restart="always"
+								repeatCount = "indefinite"
+								/>
+				<animate
+								xlink:href="#cloud__center"
+								attributeName="cx"
+								from="128.5"
+								to="-31.5"
+								dur="6s"
+								begin="0s"
+								fill="freeze"
+								restart="always"
+								repeatCount = "indefinite"
+								/>
+				<animate
+								xlink:href="#cloud__left"
+								attributeName="cx"
+								from="115.5"
+								to="-44.5"
+								dur="6s"
+								begin="0s"
+								fill="freeze"
+								restart="always"
+								repeatCount = "indefinite"
+								/>
+			</g>
+		</g>
+	</g>
+</svg>
