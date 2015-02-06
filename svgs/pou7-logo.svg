@@ -3,34 +3,50 @@
     <!-- Generator: Sketch 3.2.2 (9983) - http://www.bohemiancoding.com/sketch -->
     <title>logo</title>
     <desc>Created with Sketch.</desc>
-    <defs></defs>
+    <defs>
+        <circle id="path-1" cx="76" cy="76" r="76"></circle>
+    </defs>
     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
         <g id="logo" sketch:type="MSArtboardGroup">
-            <circle id="background" fill="#C4DDFA" sketch:type="MSShapeGroup" cx="76" cy="76" r="76"></circle>
-            <path d="M137.654172,31.5521218 C128.211417,18.4768816 114.711597,8.52521087 99.0000299,3.54242893 C99.0229364,19.8153242 112.221745,33 128.5,33 C131.69552,33 134.77237,32.4919145 137.654172,31.5521218 Z" id="sun" fill="#FFCC00" sketch:type="MSShapeGroup"></path>
-            <path d="M122.651659,136.001269 C109.774378,146.027885 93.5846202,152 76,152 C58.4153798,152 42.2256219,146.027885 29.3483406,136.001269 C42.4805223,132.224336 58.5908591,130 76,130 C93.4091409,130 109.519478,132.224336 122.651659,136.001269 Z" id="floor" fill="#ADE178" sketch:type="MSShapeGroup"></path>
-            <g id="troller" sketch:type="MSLayerGroup" transform="translate(32.000000, 39.000000)">
-                <path d="M8.02832031,37.4853516 L0.549804688,25.7441406" id="handelbar" stroke="#FFFFFF" stroke-width="3" sketch:type="MSShapeGroup"></path>
-                <path d="M44.1594203,0.31884058 C64.5059106,0.31884058 81,16.8129299 81,37.1594203 C81,57.5059106 64.5059106,74 44.1594203,74 C23.8129299,74 7.31884058,57.5059106 7.31884058,37.1594203 L44.1594203,37.1594203 L44.1594203,0.31884058 Z" id="Chariot" fill="#F25C5C" sketch:type="MSShapeGroup"></path>
-                <path d="M78.0664922,22.7289726 C75.0450461,15.6385586 69.8645687,9.68903697 63.3507683,5.70611605 L44.4140625,37.4638672 L78.0664922,22.7289726 Z" id="shade" fill="#DA3F3F" sketch:type="MSShapeGroup"></path>
-                <rect id="nacelle-top" fill="#FFFFFF" sketch:type="MSShapeGroup" x="5" y="35" width="78" height="4"></rect>
+            <mask id="mask-2" sketch:name="mask" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <use id="mask" sketch:type="MSShapeGroup" xlink:href="#path-1"></use>
+            <rect id="background" fill="#C4DDFA" sketch:type="MSShapeGroup" mask="url(#mask-2)" x="0" y="0" width="152" height="152"></rect>
+            <circle id="floor" fill="#ACE078" sketch:type="MSShapeGroup" mask="url(#mask-2)" cx="76" cy="203" r="76"></circle>
+            <path d="M113.85791,151.673028 C103.531692,143.124842 90.3545203,138 76,138 C60.1979898,138 45.8227443,144.210518 35.1069306,154.361674" id="stone-path" sketch:type="MSShapeGroup" mask="url(#mask-2)"></path>
+            <circle id="stone" fill="#D8D8D8" sketch:type="MSShapeGroup" mask="url(#mask-2)" cx="87" cy="139" r="1"></circle>
+            <g id="troller" sketch:type="MSLayerGroup" mask="url(#mask-2)">
+                <g transform="translate(32.000000, 39.000000)" sketch:type="MSShapeGroup">
+                    <path d="M8.02832031,37.4853516 L0.549804688,25.7441406" id="handelbar" stroke="#FFFFFF" stroke-width="3" fill="none"></path>
+                    <path d="M44.1594203,0.31884058 C64.5059106,0.31884058 81,16.8129299 81,37.1594203 C81,57.5059106 64.5059106,74 44.1594203,74 C23.8129299,74 7.31884058,57.5059106 7.31884058,37.1594203 L44.1594203,37.1594203 L44.1594203,0.31884058 Z" id="Chariot" stroke="none" fill="#F25C5C" fill-rule="evenodd"></path>
+                    <path d="M78.0664922,22.7289726 C75.0450461,15.6385586 69.8645687,9.68903697 63.3507683,5.70611605 L44.4140625,37.4638672 L78.0664922,22.7289726 Z" id="shade" stroke="none" fill="#DA3F3F" fill-rule="evenodd"></path>
+                    <rect id="nacelle-top" stroke="none" fill="#FFFFFF" fill-rule="evenodd" x="5" y="35" width="78" height="4"></rect>
+                </g>
             </g>
-            <g id="wheel-right" sketch:type="MSLayerGroup" transform="translate(79.000000, 103.000000)">
-                <circle id="tire" fill="#556270" sketch:type="MSShapeGroup" cx="15" cy="15" r="15"></circle>
-                <circle id="spoke" fill="#FFFFFF" sketch:type="MSShapeGroup" cx="15" cy="15" r="9"></circle>
-                <circle id="center" fill="#556270" sketch:type="MSShapeGroup" cx="15.5" cy="15.5" r="2.5"></circle>
+            <g id="wheel-right" sketch:type="MSLayerGroup" mask="url(#mask-2)">
+                <g transform="translate(79.000000, 103.000000)" sketch:type="MSShapeGroup">
+                    <circle id="tire" fill="#556270" cx="15" cy="15" r="15"></circle>
+                    <circle id="spoke" fill="#FFFFFF" cx="15" cy="15" r="9"></circle>
+                    <circle id="center" fill="#556270" cx="15.5" cy="15.5" r="2.5"></circle>
+                </g>
             </g>
-            <g id="wheel-left" sketch:type="MSLayerGroup" transform="translate(43.000000, 103.000000)">
-                <circle id="tire" fill="#556270" sketch:type="MSShapeGroup" cx="15" cy="15" r="15"></circle>
-                <circle id="spoke" fill="#FFFFFF" sketch:type="MSShapeGroup" cx="15" cy="15" r="9"></circle>
-                <circle id="center" fill="#556270" sketch:type="MSShapeGroup" cx="15.5" cy="15.5" r="2.5"></circle>
+            <g id="wheel-left" sketch:type="MSLayerGroup" mask="url(#mask-2)">
+                <g transform="translate(43.000000, 103.000000)" sketch:type="MSShapeGroup">
+                    <circle id="tire" fill="#556270" cx="15" cy="15" r="15"></circle>
+                    <circle id="spoke" fill="#FFFFFF" cx="15" cy="15" r="9"></circle>
+                    <circle id="center" fill="#556270" cx="15.5" cy="15.5" r="2.5"></circle>
+                </g>
             </g>
-            <g id="cloud" sketch:type="MSLayerGroup" transform="translate(24.000000, 13.000000)" fill="#FFFFFF">
-                <rect id="bottom" sketch:type="MSShapeGroup" x="6" y="15" width="25" height="7"></rect>
-                <circle id="right" sketch:type="MSShapeGroup" cx="30.5" cy="14.5" r="7.5"></circle>
-                <circle id="center" sketch:type="MSShapeGroup" cx="19" cy="10" r="10"></circle>
-                <circle id="left" sketch:type="MSShapeGroup" cx="6" cy="16" r="6"></circle>
+            <g id="cloud" sketch:type="MSLayerGroup" mask="url(#mask-2)" fill="#FFFFFF">
+                <g transform="translate(24.000000, 13.000000)" sketch:type="MSShapeGroup">
+                    <rect id="bottom" x="6" y="15" width="25" height="7"></rect>
+                    <circle id="right" cx="30.5" cy="14.5" r="7.5"></circle>
+                    <circle id="center" cx="19" cy="10" r="10"></circle>
+                    <circle id="left" cx="6" cy="16" r="6"></circle>
+                </g>
             </g>
+            <circle id="sun" fill="#FFCC00" sketch:type="MSShapeGroup" mask="url(#mask-2)" cx="128" cy="4" r="29"></circle>
         </g>
     </g>
 </svg>
