@@ -15,7 +15,8 @@ module.exports = function(grunt) {
       },
       options: {
         plugins: [
-          { cleanupIDs: false }
+          { cleanupIDs: false },
+          { removeUselessStrokeAndFill: false }
         ]
       },
     },
