@@ -8,39 +8,40 @@ module.exports = function(grunt) {
       dist: {
         files: [{
           expand: true,
-          cwd: 'svgs',
+          cwd: 'source',
           src: ['*.svg'],
-          dest: 'source'
+          dest: 'dist'
         }]
       },
       options: {
-        plugins: [
-          { cleanupIDs: false }
-        ]
+        plugins: [{
+          cleanupIDs: false
+        }]
       },
     },
 
-    grunticon: {
-      myIcons: {
-        files: [{
-          expand: true,
-          cwd: 'svgs',
-          src: ['*.svg', '*.png'],
-          dest: "dist"
-        }],
-        options: {
-        }
+
+    svg2png: {
+      all: {
+        // specify files in array format with multiple src-dest mapping
+        files: [
+          // rasterize all SVG files in "img" and its subdirectories to "img/png"
+          {
+            cwd: 'dist/',
+            src: ['**/*.svg'],
+            dest: 'dist/png/'
+          }
+        ]
       }
     }
 
   });
 
-  // Load the plugin that provides the "svgmin" task.
+  // Plugins
   grunt.loadNpmTasks('grunt-svgmin');
-  // Load the plugin that provides the "grunticon" task.
-  grunt.loadNpmTasks('grunt-grunticon');
+  grunt.loadNpmTasks('grunt-svg2png');
 
   // Default task(s).
-  grunt.registerTask('default', ['svgmin','grunticon']);
+  grunt.registerTask('default', ['svgmin', 'svg2png']);
 
 };

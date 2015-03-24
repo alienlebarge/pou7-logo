@@ -1,1 +1,52 @@
-<svg width="152" height="152" viewBox="0 0 152 152" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><title>pou7-logo</title><desc>Created with Sketch.</desc><defs><circle id="path-1" cx="76" cy="76" r="76"/></defs><g id="Page-1" fill="none" fill-rule="evenodd"><g id="pou7-logo"><mask id="mask-2"><use xlink:href="#path-1"/></mask><use id="mask" xlink:href="#path-1"/><path id="background" fill="#C4DDFA" mask="url(#mask-2)" d="M0 0h152v152H0z"/><circle id="floor" fill="#ACE078" mask="url(#mask-2)" cx="76" cy="203" r="76"/><path d="M113.858 151.673C103.532 143.125 90.355 138 76 138c-15.802 0-30.177 6.21-40.893 16.362" id="stone-path" mask="url(#mask-2)"/><circle id="stone" fill="#D8D8D8" mask="url(#mask-2)" cx="87" cy="139" r="1"/><g id="troller" mask="url(#mask-2)"><path d="M40.028 76.485l-7.478-11.74" id="handelbar" stroke="#fff" stroke-width="3"/><path d="M76.16 39.32c20.346 0 36.84 16.493 36.84 36.84C113 96.505 96.506 113 76.16 113c-20.347 0-36.84-16.494-36.84-36.84h36.84V39.32z" id="Chariot" fill="#F25C5C"/><path d="M110.066 61.73c-3.02-7.09-8.2-13.04-14.715-17.024L76.415 76.464l33.652-14.735z" id="shade" fill="#DA3F3F"/><path id="nacelle-top" fill="#fff" d="M37 74h78v4H37z"/></g><g transform="translate(79 103)" id="wheel-right" mask="url(#mask-2)"><circle id="tire" fill="#556270" cx="15" cy="15" r="15"/><circle id="spoke" fill="#fff" cx="15" cy="15" r="9"/><circle id="center" fill="#556270" cx="15.5" cy="15.5" r="2.5"/></g><g transform="translate(43 103)" id="wheel-left" mask="url(#mask-2)"><circle id="tire" fill="#556270" cx="15" cy="15" r="15"/><circle id="spoke" fill="#fff" cx="15" cy="15" r="9"/><circle id="center" fill="#556270" cx="15.5" cy="15.5" r="2.5"/></g><g transform="translate(24 13)" id="cloud" mask="url(#mask-2)" fill="#fff"><path id="bottom" d="M6 15h25v7H6z"/><circle id="right" cx="30.5" cy="14.5" r="7.5"/><circle id="center" cx="19" cy="10" r="10"/><circle id="left" cx="6" cy="16" r="6"/></g><circle id="sun" fill="#fc0" mask="url(#mask-2)" cx="128" cy="4" r="29"/></g></g></svg>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="152px" height="152px" viewBox="0 0 152 152" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.2.2 (9983) - http://www.bohemiancoding.com/sketch -->
+    <title>pou7-logo</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <circle id="path-1" cx="76" cy="76" r="76"></circle>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="pou7-logo" sketch:type="MSArtboardGroup">
+            <mask id="mask-2" sketch:name="mask" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <use id="mask" sketch:type="MSShapeGroup" xlink:href="#path-1"></use>
+            <rect id="background" fill="#C4DDFA" sketch:type="MSShapeGroup" mask="url(#mask-2)" x="0" y="0" width="152" height="152"></rect>
+            <circle id="floor" fill="#ACE078" sketch:type="MSShapeGroup" mask="url(#mask-2)" cx="76" cy="203" r="76"></circle>
+            <path d="M113.85791,151.673028 C103.531692,143.124842 90.3545203,138 76,138 C60.1979898,138 45.8227443,144.210518 35.1069306,154.361674" id="stone-path" sketch:type="MSShapeGroup" mask="url(#mask-2)"></path>
+            <circle id="stone" fill="#D8D8D8" sketch:type="MSShapeGroup" mask="url(#mask-2)" cx="87" cy="139" r="1"></circle>
+            <g id="troller" sketch:type="MSLayerGroup" mask="url(#mask-2)">
+                <g transform="translate(32.000000, 39.000000)" sketch:type="MSShapeGroup">
+                    <path d="M8.02832031,37.4853516 L0.549804688,25.7441406" id="handelbar" stroke="#FFFFFF" stroke-width="3" fill="none"></path>
+                    <path d="M44.1594203,0.31884058 C64.5059106,0.31884058 81,16.8129299 81,37.1594203 C81,57.5059106 64.5059106,74 44.1594203,74 C23.8129299,74 7.31884058,57.5059106 7.31884058,37.1594203 L44.1594203,37.1594203 L44.1594203,0.31884058 Z" id="Chariot" stroke="none" fill="#F25C5C" fill-rule="evenodd"></path>
+                    <path d="M78.0664922,22.7289726 C75.0450461,15.6385586 69.8645687,9.68903697 63.3507683,5.70611605 L44.4140625,37.4638672 L78.0664922,22.7289726 Z" id="shade" stroke="none" fill="#DA3F3F" fill-rule="evenodd"></path>
+                    <rect id="nacelle-top" stroke="none" fill="#FFFFFF" fill-rule="evenodd" x="5" y="35" width="78" height="4"></rect>
+                </g>
+            </g>
+            <g id="wheel-right" sketch:type="MSLayerGroup" mask="url(#mask-2)">
+                <g transform="translate(79.000000, 103.000000)" sketch:type="MSShapeGroup">
+                    <circle id="tire" fill="#556270" cx="15" cy="15" r="15"></circle>
+                    <circle id="spoke" fill="#FFFFFF" cx="15" cy="15" r="9"></circle>
+                    <circle id="center" fill="#556270" cx="15.5" cy="15.5" r="2.5"></circle>
+                </g>
+            </g>
+            <g id="wheel-left" sketch:type="MSLayerGroup" mask="url(#mask-2)">
+                <g transform="translate(43.000000, 103.000000)" sketch:type="MSShapeGroup">
+                    <circle id="tire" fill="#556270" cx="15" cy="15" r="15"></circle>
+                    <circle id="spoke" fill="#FFFFFF" cx="15" cy="15" r="9"></circle>
+                    <circle id="center" fill="#556270" cx="15.5" cy="15.5" r="2.5"></circle>
+                </g>
+            </g>
+            <g id="cloud" sketch:type="MSLayerGroup" mask="url(#mask-2)" fill="#FFFFFF">
+                <g transform="translate(24.000000, 13.000000)" sketch:type="MSShapeGroup">
+                    <rect id="bottom" x="6" y="15" width="25" height="7"></rect>
+                    <circle id="right" cx="30.5" cy="14.5" r="7.5"></circle>
+                    <circle id="center" cx="19" cy="10" r="10"></circle>
+                    <circle id="left" cx="6" cy="16" r="6"></circle>
+                </g>
+            </g>
+            <circle id="sun" fill="#FFCC00" sketch:type="MSShapeGroup" mask="url(#mask-2)" cx="128" cy="4" r="29"></circle>
+        </g>
+    </g>
+</svg>
