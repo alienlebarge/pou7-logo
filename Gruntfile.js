@@ -18,30 +18,14 @@ module.exports = function(grunt) {
           cleanupIDs: false
         }]
       },
-    },
-
-
-    svg2png: {
-      all: {
-        // specify files in array format with multiple src-dest mapping
-        files: [
-          // rasterize all SVG files in "img" and its subdirectories to "img/png"
-          {
-            cwd: 'dist/',
-            src: ['**/*.svg'],
-            dest: 'dist/png/'
-          }
-        ]
-      }
     }
 
   });
 
   // Plugins
   grunt.loadNpmTasks('grunt-svgmin');
-  grunt.loadNpmTasks('grunt-svg2png');
 
   // Default task(s).
-  grunt.registerTask('default', ['svgmin', 'svg2png']);
+  grunt.registerTask('default', ['svgmin']);
 
 };
